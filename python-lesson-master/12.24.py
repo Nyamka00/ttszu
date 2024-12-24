@@ -9,6 +9,7 @@ x = {
     "city": "New York"
 }
 
+
 import re
 s = 'Hello from 95020170 to about the meeting 884577466 '
 Ist = re.findall(r'\b\d{8}\b', s)
